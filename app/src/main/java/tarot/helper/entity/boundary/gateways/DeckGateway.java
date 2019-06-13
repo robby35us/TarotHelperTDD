@@ -1,6 +1,8 @@
-package tarot.helper.entity.boundary;
+package tarot.helper.entity.boundary.gateways;
 
-import tarot.helper.entity.card.Card;
+import tarot.helper.entity.boundary.actions.RetrieveStoredCard;
+import tarot.helper.entity.boundary.actions.StoreCard;
+import tarot.helper.entity.boundary.datatransferobjects.card.Card;
 import tarot.helper.entity.deck.Deck;
 
 public class DeckGateway implements RetrieveStoredCard.RequestHandler,

@@ -1,13 +1,10 @@
-package tarot.helper.entity.card.info;
+package tarot.helper.entity.boundary.datatransferobjects.info;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import tarot.helper.entity.card.info.CardInfo;
-import tarot.helper.entity.card.info.MajorCardInfo;
-import tarot.helper.entity.card.info.MinorCardInfo;
 import tarot.helper.entity.definitions.Arcana;
 import tarot.helper.entity.definitions.Number;
 import tarot.helper.entity.definitions.Rank;

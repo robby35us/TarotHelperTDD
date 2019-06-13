@@ -1,4 +1,4 @@
-package tarot.helper.entity.card.info;
+package tarot.helper.entity.boundary.datatransferobjects.info;
 
 import android.support.annotation.NonNull;
 

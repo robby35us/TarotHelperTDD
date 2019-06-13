@@ -1,4 +1,4 @@
-package tarot.helper.entity.card.meanings;
+package tarot.helper.entity.boundary.datatransferobjects.card.meanings;
 
 import android.support.annotation.NonNull;
 import java.util.List;

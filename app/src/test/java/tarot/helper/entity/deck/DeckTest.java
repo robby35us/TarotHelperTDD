@@ -3,8 +3,8 @@ package tarot.helper.entity.deck;
 import org.junit.Before;
 import org.junit.Test;
 
-import tarot.helper.entity.card.Card;
-import tarot.helper.entity.card.info.MajorCardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.card.Card;
+import tarot.helper.entity.boundary.datatransferobjects.info.MajorCardInfo;
 import tarot.helper.entity.definitions.Number;
 
 import static org.hamcrest.CoreMatchers.is;

@@ -1,4 +1,4 @@
-package tarot.helper.entity.card.meanings;
+package tarot.helper.entity.boundary.datatransferobjects.card.meanings;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
@@ -7,8 +7,6 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import tarot.helper.entity.card.meanings.Meanings;
 
 public class MeaningsTest {
     private static final String TEST_BASIC = "Test Meaning";

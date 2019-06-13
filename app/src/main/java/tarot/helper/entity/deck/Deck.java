@@ -5,8 +5,8 @@ import android.support.annotation.NonNull;
 import java.util.Map;
 import java.util.TreeMap;
 
-import tarot.helper.entity.card.Card;
-import tarot.helper.entity.card.info.CardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.card.Card;
+import tarot.helper.entity.boundary.datatransferobjects.info.CardInfo;
 
 public class Deck {
     private static Deck deck;

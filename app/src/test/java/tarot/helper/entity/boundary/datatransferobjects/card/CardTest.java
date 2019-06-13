@@ -1,4 +1,4 @@
-package tarot.helper.entity.card;
+package tarot.helper.entity.boundary.datatransferobjects.card;
 
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -8,10 +8,9 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import tarot.helper.entity.card.Card;
-import tarot.helper.entity.card.info.MajorCardInfo;
-import tarot.helper.entity.card.info.MinorCardInfo;
-import tarot.helper.entity.card.meanings.Meanings;
+import tarot.helper.entity.boundary.datatransferobjects.info.MajorCardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.info.MinorCardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.card.meanings.Meanings;
 import tarot.helper.entity.definitions.Number;
 import tarot.helper.entity.definitions.Rank;
 import tarot.helper.entity.definitions.Suit;

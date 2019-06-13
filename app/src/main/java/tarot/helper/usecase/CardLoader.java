@@ -2,8 +2,8 @@ package tarot.helper.usecase;
 
 import android.content.Context;
 
-import tarot.helper.entity.card.Card;
-import tarot.helper.entity.card.info.CardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.card.Card;
+import tarot.helper.entity.boundary.datatransferobjects.info.CardInfo;
 
 public interface CardLoader {
 

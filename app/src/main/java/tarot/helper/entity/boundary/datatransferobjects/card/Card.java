@@ -1,10 +1,10 @@
-package tarot.helper.entity.card;
+package tarot.helper.entity.boundary.datatransferobjects.card;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 
-import tarot.helper.entity.card.info.CardInfo;
-import tarot.helper.entity.card.meanings.Meanings;
+import tarot.helper.entity.boundary.datatransferobjects.info.CardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.card.meanings.Meanings;
 
 public class Card {
     private CardInfo info;

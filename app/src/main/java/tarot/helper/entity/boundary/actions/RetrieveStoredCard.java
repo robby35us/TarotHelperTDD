@@ -1,7 +1,7 @@
-package tarot.helper.entity.boundary;
+package tarot.helper.entity.boundary.actions;
 
-import tarot.helper.entity.card.Card;
-import tarot.helper.entity.card.info.CardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.card.Card;
+import tarot.helper.entity.boundary.datatransferobjects.info.CardInfo;
 
 
 public interface RetrieveStoredCard {

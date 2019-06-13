@@ -1,4 +1,4 @@
-package tarot.helper.entity.boundary;
+package tarot.helper.entity.boundary.gateways;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
@@ -6,10 +6,13 @@ import static org.hamcrest.CoreMatchers.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import tarot.helper.entity.card.Card;
-import tarot.helper.entity.card.info.CardInfo;
-import tarot.helper.entity.card.info.MajorCardInfo;
-import tarot.helper.entity.card.info.MinorCardInfo;
+import tarot.helper.entity.boundary.actions.RetrieveStoredCard;
+import tarot.helper.entity.boundary.actions.StoreCard;
+import tarot.helper.entity.boundary.datatransferobjects.card.Card;
+import tarot.helper.entity.boundary.datatransferobjects.info.CardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.info.MajorCardInfo;
+import tarot.helper.entity.boundary.datatransferobjects.info.MinorCardInfo;
+import tarot.helper.entity.boundary.gateways.DeckGateway;
 import tarot.helper.entity.deck.DummyDeck;
 import tarot.helper.entity.definitions.Number;
 import tarot.helper.entity.definitions.Rank;
@@ -43,8 +46,7 @@ public class DeckGatewayTest {
 
     @Test
     public void retrieveUnStoredCard_SendsBackNull() {
-        gateway.handleRequest(new RetrieveStoredCard.RequestData(TEST_INFO_1),
-                              returnNull);
+        gateway.handleRequest(new RetrieveStoredCard.RequestData(TEST_INFO_1), returnNull);
     }
 
     @Test
