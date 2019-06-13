@@ -9,9 +9,17 @@ import tarot.helper.entity.card.Card;
 import tarot.helper.entity.card.info.CardInfo;
 
 public class Deck {
+    private static Deck deck;
+
     private Map<CardInfo, Card> cards;
 
-    public Deck() {
+    public static Deck getInstance() {
+        if(deck == null)
+            deck = new Deck();
+        return deck;
+    }
+
+    Deck() {
         cards = new TreeMap<>();
     }
 
